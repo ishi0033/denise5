@@ -1,0 +1,29 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+header,footer{
+    background-color: antiquewhite;
+}
+.site-title{
+    color: aquamarine;
+}
+#my-image{
+    box-shadow: 0  0  2px  1px black ;
+}
+ul{
+    list-style: square;
+}
+ul:not(.site nav) li:nth-child(odd){
+    background-color: brown;
+}
+a{
+    text-decoration: none;
+    background-color: aqua;
+    border: black 1px solid;
+}
+a:hover{
+    text-decoration: none;
+    background-color: burlywood;
+    border: black 1px solid;
+}
