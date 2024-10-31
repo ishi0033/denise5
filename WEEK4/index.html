@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4</title>
+</head>
+<body>
+    <header>
+        <h1>week 4</h1>
+    </header>
+    <main> 
+        <h2>Image tag example</h2>
+        <!-- if image is decorative keep the alt tag empty alt-->
+        <img src="./images/coffee-shop.jpg" alt="coffee cup with coffe beans">
+        <!-- Learning about a tag -->
+        <h2> Link tag example</h2>
+        <a href="https://www.google.com">Google Website</a>
+        <p>Here is a link to visit <a href="https://www.google.com" 
+        target="_blank"> Google Homepage</a></p>
+        <a href="./thanks.html">Thank you page</a>
+        <a href="#cakes">Jump to cake menu</a>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis at,
+            dignissimos ratione doloremque rerum non rem cum laudantium quia consectetur,
+            saepe perferendis aperiam iste reprehenderit fugit ipsa, excepturi impedit.
+            Saepe.</p>
+            <ul id="cakes">
+                <li>Red Velvet</li>
+                <li>Tiramisu</li>
+                <li>Black Forest</li>
+              </ul>
+              <!-- Table in Html -->
+               <h2> Simple HTML Table</h2>
+              <table border>
+              <caption> Student Grades</caption>
+              <thead>
+                <tr>  
+                    <th>Student Name</th>
+                    <th> Course Name</th>
+                    <th>Grade</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr> 
+                    <td>Denise Ishimwe</td>
+                    <td>Web dev</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td> Denise Ishimwe</td>
+                    <td>Web Dev 2</td>
+                    <td> A+</td>
+                </tr>
+              
+              </table>
+              <table> 
+                <caption> Student Grades </caption>
+                <thead>
+                    <tr>
+                    <th rowspan="2">Names</th>
+                    <th colspan="2">Scores</th>
+                </tr>
+                <tr>
+                    <th>Maths</th>
+                    <th>English</th>
+                </tr>
+                </thead>
+            </tbody>
+              </table>
+              <!-- table in HTML -->
+               <table border>
+                <caption> Weekly Days </caption>
+                <thead>
+                    <tr>
+                        <th>Week days</th>
+                        <th>Month</th>
+                    </tr>
+                    <tr>
+                        <th>Mon</th>
+                        <th>wed</th>
+                        <th>Jan</th>
+                        <th> May</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+               </table>
+               <!---form elements -->
+               <h2> Forms elements </h2>
+               <form action ="./thanks.html" method="get">
+                <label for="quantity">quantity</label>
+                <input id="quantity" type="number" name="quantity"min="0" max="20" step="2">
+<label for="userEmail">Email</label>
+<input id="userEmail"Type="email" name="email">
+<button type="submit">Send</button>
+               </select>
+<!-- dropdown-->
+ <label for="rock"> Choose your Rock</label>
+ <select id="rock" name="rock"> 
+    <option value="mars">Mars</option>
+    <option value="human">Earth</option>
+    <option value="venus">Venus</option>
+    </form>
+    <h3>How many hours you listen to music?</h3>
+<form action="thanks.html" method="post">
+  <label for="little">0-1</label>
+  <input type="radio" id="little" name="musictime" value="0-1">
+  <label for="some">2-3</label>
+  <input type="radio" id="some" name="musictime" value="2-3" checked>
+  <label for="alot">4-5</label>
+  <input type="radio" id="alot" name="musictime" value="4-5">
+    </main>
+    
+</body>
+</html>
